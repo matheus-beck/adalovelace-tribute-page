@@ -1,0 +1,66 @@
+body{
+  background-color: #8acdf7;
+  font-family: 'Raleway', Helvetica, sans-serif;
+}
+
+header{
+  text-align:center;
+}
+
+h1{
+  font-size: 35px;
+  font-weight: bold;
+}
+
+form{
+ width: 75%;
+ margin: auto;
+ background-color: white;
+ text-align: center;
+ padding: 10px;
+}
+
+label {
+  display: inline-block;
+  text-align: right;
+  width: 40%;
+  padding: 5px;
+  vertical-align: top;
+  margin-top: 10px;
+}
+
+.rightTab {
+  display: inline-block;
+  text-align: left;
+  width: 48%;
+  vertical-align: middle;
+  padding: 5px;
+  resize:vertical;
+}
+#submit {
+  background-color: #59ace0;
+  border-radius: 4px;
+  color: white;
+  font-size: 1em;
+  height: 40px;
+  width: 96px;
+  margin: 10px;
+  border: 0px solid;
+}
+
+@media screen and (max-width: 520px) {
+  .labels {
+    width: 100%;
+    text-align: left;
+  }
+  .rightTab {
+    width: 80%;
+    float: left;
+  }
+  .input-field {
+    width: 100%;
+  }
+  select {
+    width: 100%;
+  }
+}

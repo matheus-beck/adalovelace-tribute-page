@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+    <header>
+        <h1 id='title'>Survey Form</h1>
+    </header>
+    <form id='survey-form'>
+        <p id='description'>Let us know how to improve our app</p>
+        <label id='name-label' class='labels'>*Name:</label>
+        <div class='rightTab'>
+            <input id='name' type='text' placeholder='Enter your name' required> 
+        </div>
+        <br>
+        <label id='email-label' class='labels'>*Email:</label>
+        <div class='rightTab'>
+            <input id='email' type='email' placeholder='Enter your Email' required>
+        </div>
+        <br>
+        <label id='number-label' class='labels'>*Age:</label>
+        <div class='rightTab'>
+            <input id='number' type='number' min='1' max='130' placeholder='Age' required>
+        </div>
+        <br>
+        <label id='os-used' class='labels'>OS Used:</label>
+        <div class='rightTab'> 
+            <select id='dropdown'>
+                <option value='Android'>Android</option>
+                <option value='iOS'>iOS</option>
+                <option value='Windows'>Windows</option>
+            </select> 
+        </div> 
+        <br>
+        <label id='probability' class='labels'>*How likely is that you would recommend our app to a friend?</label>
+        <div class='rightTab'>
+            <input type='radio' name='improvment' value='definitely'> Definitely <br>
+            <input type='radio' name='improvment' value='maybe'> Maybe <br>
+            <input type='radio' name='improvment' value='not sure'> Not Sure
+        </div>
+        <br>
+        <label id='improvments' class='labels'>Things that should be improved in the future (Check all that apply):</label>
+        <div class='rightTab'>
+            <input type='checkbox' value='front-end-projects'>Front-end Projects</input> <br>
+            <input type='checkbox' value='back-end-projects'>Back-end Projects</input> <br>
+            <input type='checkbox' value='design'>Designs</input> <br>
+            <input type='checkbox' value='digital-marketing'>Digital Marketing</input> <br>
+            <input type='checkbox' value='videos'>Videos</input> 
+        </div> 
+        <br>
+        <label id='comments' class='labels'>Any Comments or Suggestions?</label>
+        <div class='rightTab'>
+            <textarea rows="4" cols="22" placeholder="Enter your comment here..."></textarea> 
+        </div>
+        <br>
+        <button type='submit' id='submit'>Submit</button>
+    </form>
+</body>
+</html>
