@@ -1,3 +1,3 @@
 # HTML + CSS Projects
 
-Responsive web pages developed using HTML and CSS in freeCodeCamp.org
+Responsive web pages developed using HTML and CSS at freeCodeCamp.org
