@@ -1,0 +1,72 @@
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="./styles.css"/>
+    <title>Python Documentation</title>
+</head>
+<body>
+  <nav id="navbar">
+        <header>Python Documentation</header>
+        <a class="nav-link" href="#Introduction">Introduction</a>
+        <a class="nav-link" href="#What_you_should_know">What you should know</a>
+        <a class="nav-link" href="#Python_History">Python History</a>
+        <a class="nav-link" href="#Python_Features">Python Features</a>
+        <a class="nav-link" href="#Hello_World">Hello World</a>
+        <a class="nav-link" href="#Variables">Variables</a>
+    </nav>
+    <main id="main-doc">
+        <section class="main-section" id="Introduction">
+            <header>Introduction</header>
+            <p> Python is an interpreted, high-level, general-purpose programming language. Created by Guido van Rossum and first released in 1991, Python's design philosophy emphasizes code readability with its notable use of significant whitespace. </p>
+            <p> Its language constructs and object-oriented approach aims to help programmers write clear, logical code for small and large-scale projects. </p>
+        </section>
+        <section class="main-section" id="What_you_should_know">
+            <header>What you should know</header>
+            <p> Python is dynamically typed and garbage-collected. It supports multiple programming paradigms, including procedural, object-oriented, and functional programming. Python is often described as a "batteries included" language due to its comprehensive standard library </p>
+            <p>Python interpreters are available for many operating systems. A global community of programmers develops and maintains CPython, an open source reference implementation. A non-profit organization, the Python Software Foundation, manages and directs resources for Python and CPython development. </p>
+      </section>
+        <section class="main-section" id="Python_History">
+            <header>Python History</header>
+            <p>Python was conceived in the late 1980s as a successor to the ABC language. Python 2.0, released 2000, introduced features like list comprehensions and a garbage collection system capable of collecting reference cycles. Python 3.0, released 2008, was a major revision of the language that is not completely backward-compatible, and much Python 2 code does not run unmodified on Python 3. Due to concern about the amount of code written for Python 2, support for Python 2.7 (the last release in the 2.x series) was extended to 2020. Language developer Guido van Rossum shouldered sole responsibility for the project until July 2018 but now shares his leadership as a member of a five-person steering council.</p>
+        </section>
+        <section class="main-section" id="Python_Features">
+            <header>Python Features</header>
+            <ol>
+                <li> Easy-to-learn − Python has few keywords, simple structure, and a clearly defined syntax. This allows the student to pick up the language quickly. </li>
+                <li>Easy-to-read − Python code is more clearly defined and visible to the eyes. </li>
+                <li>Easy-to-maintain − Python's source code is fairly easy-to-maintain. </li>
+                <li>A broad standard library − Python's bulk of the library is very portable and cross-platform compatible on UNIX, Windows, and Macintosh.</li>
+                <li>Interactive Mode − Python has support for an interactive mode which allows interactive testing and debugging of snippets of code. </li>
+                <li>Portable − Python can run on a wide variety of hardware platforms and has the same interface on all platforms. </li>
+                <li>Extendable − You can add low-level modules to the Python interpreter. These modules enable programmers to add to or customize their tools to be more efficient. </li>
+                <li>Databases − Python provides interfaces to all major commercial databases.</li>
+                <li>GUI Programming − Python supports GUI applications that can be created and ported to many system calls, libraries and windows systems, such as Windows MFC, Macintosh, and the X Window system of Unix.</li>
+                <li>Scalable − Python provides a better structure and support for large programs than shell scripting.</li>
+          </ol>
+        </section>
+        <section class="main-section" id="Hello_World">
+            <header> Hello World </header>
+            <p> Let us write a simple Python program in a script. Python files have extension .py. Type the following source code in a test.py file: </p>
+                <code> print("Hello World!")</code>
+            <p> We assume that you have Python interpreter set in PATH variable. Now, try to run this program as follows: </p>
+                <code> $ python test.py</code>
+            <p>This produces the following result: </p>
+                <code>Hello World!</code>
+        </section>
+        <section class="main-section" id="Variables">
+            <header> Variables </header>
+            <p>Variables are nothing but reserved memory locations to store values. This means that when you create a variable you reserve some space in memory. </p>
+            <p>Based on the data type of a variable, the interpreter allocates memory and decides what can be stored in the reserved memory. Therefore, by assigning different data types to variables, you can store integers, decimals or characters in these variables.</p>
+          <p>Here's an example: </p>
+            <code> counter = 100  # An integer assignment </code><br>
+            <code> miles   = 1000.0  # A floating point </code><br>
+            <code> name    = "John"  # A string </code>
+        </section>
+    </main>
+</body>
+</html>
